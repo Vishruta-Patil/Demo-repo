@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+#main-container {
+  background-color: pink;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#navbar {
+  background-color: greenyellow;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
