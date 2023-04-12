@@ -2,6 +2,18 @@ body {
   background-color: white;
 }
 
+#navbar {
+    background-color: greenyellow;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  #main-container {
+    background-color: pink;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
 #footer {
   position: fixed;
   bottom: 0;
@@ -9,18 +21,6 @@ body {
   right: 0;
   background-color: greenyellow;
   text-align: center;
-}
-
-#main-container {
-  background-color: pink;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-#navbar {
-  background-color: greenyellow;
-  display: flex;
-  margin-bottom: 20px;
 }
 
 li {
